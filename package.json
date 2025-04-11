@@ -1,0 +1,14 @@
+{
+  "name": "sangamesh",
+  "version": "1.0.0",
+  "description": "It's package is create by writing npm init for learning purpose",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sangamesh",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}

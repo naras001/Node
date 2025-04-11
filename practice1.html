@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hare Krishna</title>
+</head>
+<body>
+    <h2 id="learning">We are going to learn JS</h2>
+    <button onclick="handleClickFunction()">Click Me!!!</button>
+    <button id="buttonClicked">Hare Krishna</button>
+</body>
+<script>
+    el = document.getElementById('buttonClicked')
+    function handleClickFunction(){
+        console.log("Click Me")
+    }
+    el.addEventListener('click', handleClickFunction)
+
+    var learning = document.getElementById('learning');
+    el.addEventListener('click', () => {
+        <!-- document.getElementById('learning').style.color = 'red'; -->
+         learning.style.color = 'blue';
+    })
+
+</script>
+</html>

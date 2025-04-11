@@ -1,0 +1,14 @@
+console.log()
+
+setTimeout();
+clearTimeout();
+
+setInterval();
+clearInterval();
+
+window.setTimeout
+window.clearTimeout
+
+var message = '';
+
+instead of window we can also use global
